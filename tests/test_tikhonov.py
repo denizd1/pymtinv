@@ -1,7 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.optimize import minimize
-from pymtinv.forward import MT2DForward, MT2DMesh
+from pymtinv.forward import MT2DForward
+from pymtinv.mesh import MT2DMesh
 from pymtinv.backward import MT2DGradient
 import time
 
