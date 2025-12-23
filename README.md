@@ -1,4 +1,4 @@
-# pymtinv: 2D Magnetotelluric Inversion Library 🧲⚡
+# pymtinv: 2D Magnetotelluric Inversion Library
 
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
@@ -10,13 +10,13 @@ This project bridges the gap between **Geophysical Inverse Problems** and **Emer
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
-- **⚡ High-Performance Forward Solver:** Solves the Helmholtz equation for TE-mode using the Finite Difference Method (FDM) on a staggered grid.
+- ** High-Performance Forward Solver:** Solves the Helmholtz equation for TE-mode using the Finite Difference Method (FDM) on a staggered grid.
 - **∇ Adjoint State Gradient:** Implements efficient gradient calculation independent of the number of model parameters ($O(1)$ complexity), enabling large-scale inversion.
-- **🧠 Auto-Tuning Framework:**
+- ** Auto-Tuning Framework:**
   - **Automatic Regularization:** Determines the optimal Tikhonov parameter ($\beta$) using a fast, robust L-Curve scan.
   - **Hyperparameter Search:** Automatically tunes Learning Rate and Temperature for stochastic p-bit optimization via grid search.
-- **🎲 Probabilistic Inversion (P-bits):** Simulates **Langevin Dynamics** to emulate p-bit networks (invertible logic), enabling global search capabilities and escaping local minima.
-- **📊 Advanced Visualization:** Plotting tools with support for non-uniform meshes (padding), logarithmic conductivity maps, and convergence graphs.
-- **⏱️ FPGA Projection:** Benchmarking tools to compare CPU execution times with theoretical FPGA performance (massively parallel updates).
+- ** Probabilistic Inversion (P-bits):** Simulates **Langevin Dynamics** to emulate p-bit networks (invertible logic), enabling global search capabilities and escaping local minima.
+- ** Advanced Visualization:** Plotting tools with support for non-uniform meshes (padding), logarithmic conductivity maps, and convergence graphs.
+- ** FPGA Projection:** Benchmarking tools to compare CPU execution times with theoretical FPGA performance (massively parallel updates).
